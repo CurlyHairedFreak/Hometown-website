@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Truculenta", sans-serif;
+}
+
+#header {
+  background-image: url(images/london-view.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 1510px;
+  margin: 10px auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+
+#container {
+  margin-bottom: -40px;
+}
+
+#header-title,
+#header-paragraph {
+  text-shadow: 0 0 1px black;
+}
+
+#header-title {
+  background-color: #b14265;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+#header-paragraph {
+  background-color: #821639;
+  margin-top: -8px;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.new-line {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#activity-wrapper {
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#activity-section-title {
+  display: flex;
+  justify-content: center;
+}
+
+.activity-img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+.activity {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activity-section {
+  margin: -22px auto;
+  width: 1510px;
+  background-color: #fcbe94;
+  color: #20252c;
+  padding-bottom: 20px;
+}
+
+#activity-section-title {
+  padding-top: 35px;
+}
+
+.activity-title {
+  font-weight: 700;
+}
+.activity-info {
+  font-size: 16px;
+  margin-top: -5px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  margin: 80px auto;
+  width: 400px;
+  text-align: center;
+  background-color: #9f9cb8;
+  padding: 0 40px;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 5px solid #44444a;
+}
+
+#footer-img {
+  width: 180px;
+  height: 180px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+#footer-section {
+  margin-top: 100px;
+}
+
+#footer-wrapper {
+  margin-left: 25px;
+}
